@@ -1,0 +1,9 @@
+1. making plugin
+2. making post type news
+3. adding taxonomy news_catagory and it is hierarchical
+4. register 2 & 3 only on activation and seeing the post 
+5. add some content at the end of news post
+6. add meta box name location 
+7. saving its dynamic value and seeing the location
+8. code organize
+9.
