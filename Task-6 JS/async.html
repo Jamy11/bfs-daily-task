@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        async function test(){
+            // let resu = await fetch('https://rickandmortyapi.com/api/character/6').then(res=>res.json())
+            let resu = await fetch('https://rickandmortyapi.om/api/character/6')
+            // then(res=>res.json())
+            // alert(resu)
+            // .then(res=>console.log(res)).catch(console.log('err'))
+            // console.log(resu)
+            return resu
+        }
+        test().catch(console.log('jamy'))
+                
+        
+        // alert(j)
+
+
+        async function f() {
+            let response = await fetch('http://no-such-url');
+        }
+
+            // f() becomes a rejected promise
+        // f().catch(alert); 
+    </script>
+</body>
+</html>
